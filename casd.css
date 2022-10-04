@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Montserrat:wght@300&family=Roboto:ital@1&family=Ubuntu:ital,wght@1,500&display=swap');
+
+body{
+    /* font-family: 'Roboto', sans-serif; */
+    margin: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    /* width: 100%; */
+    background-color: rgb(17, 17, 22);
+}
+
+div, .clockCont{
+    position:absolute;
+    align-items: center;
+    justify-content: center;
+    margin:auto;
+    padding: 10px;
+    border: 2px;
+    top: 40%;
+    left: 34%;
+    /* top: 36%;
+    right: 26%;
+    bottom: 27%;
+    left: 32%; */
+    font-family:'Ubuntu', sans-serif;
+    font-size: 60px;
+    color:rgb(0, 255, 123);
+}
